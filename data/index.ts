@@ -8,8 +8,8 @@ export const navItems = [
 export const gridItems = [
   {
     id: 1,
-    title: "I prioritize client collaboration, fostering open communication ",
-    description: "",
+    title: "I build scalable full-stack products with clear communication and ownership.",
+    description: "SPPU IT Student | Full-Stack Developer",
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     imgClassName: "w-full h-full",
     titleClassName: "justify-end",
@@ -18,7 +18,7 @@ export const gridItems = [
   },
   {
     id: 2,
-    title: "I'm very flexible with time zone communications",
+    title: "Based in Pune, India and open to remote collaboration.",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
@@ -29,7 +29,7 @@ export const gridItems = [
   {
     id: 3,
     title: "My tech stack",
-    description: "I constantly try to improve",
+    description: "TypeScript, Next.js, Node.js, Prisma, PostgreSQL, MongoDB",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
     titleClassName: "justify-center",
@@ -38,7 +38,7 @@ export const gridItems = [
   },
   {
     id: 4,
-    title: "Tech enthusiast with a passion for development.",
+    title: "Focused on backend reliability, auth security, and real-time systems.",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
@@ -49,8 +49,8 @@ export const gridItems = [
 
   {
     id: 5,
-    title: "Currently building a JS Animation library",
-    description: "The Inside Scoop",
+    title: "Leading technical execution for EDC at D.Y. Patil College of Engineering.",
+    description: "Technical Co-Head",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
     titleClassName: "justify-center md:justify-start lg:justify-center",
@@ -59,7 +59,7 @@ export const gridItems = [
   },
   {
     id: 6,
-    title: "Do you want to start a project together?",
+    title: "Do you want to build a project together?",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
@@ -72,68 +72,68 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "3D Solar System Planets to Explore",
-    des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
+    title: "Freeflow (Excali-Draw)",
+    des: "Real-time collaborative canvas built with Next.js, TypeScript, Prisma, PostgreSQL, WebSockets, OAuth, and Node.js.",
     img: "/p1.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "/ui.earth.com",
+    iconLists: ["/next.svg", "/ts.svg", "/node.svg", "/re.svg", "/tail.svg"],
+    link: "https://github.com",
   },
   {
     id: 2,
-    title: "Yoom - Video Conferencing App",
-    des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
+    title: "SwiftPay - Payment Banking Application",
+    des: "Interactive banking app with secure token-based authentication, MongoDB transaction logs, and reliable fund transfer workflows.",
     img: "/p2.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "/ui.yoom.com",
+    iconLists: ["/re.svg", "/ts.svg", "/node.svg", "/c.svg", "/tail.svg"],
+    link: "https://github.com",
   },
   {
     id: 3,
-    title: "AI Image SaaS - Canva Application",
-    des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
+    title: "MindStash",
+    des: "Scalable content organization platform with folder-based management, shareable links, and REST APIs for CRUD operations.",
     img: "/p3.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-    link: "/ui.aiimg.com",
+    iconLists: ["/re.svg", "/ts.svg", "/node.svg", "/c.svg", "/tail.svg"],
+    link: "https://github.com",
   },
   {
     id: 4,
-    title: "Animated Apple Iphone 3D Website",
-    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
+    title: "EDC Website - Official Club Portal",
+    des: "Recruitment and management portal with role-based access, token validation, and scalable workflows.",
     img: "/p4.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "/ui.apple.com",
+    iconLists: ["/re.svg", "/tail.svg", "/node.svg", "/c.svg", "/fm.svg"],
+    link: "https://github.com",
   },
 ];
 
 export const testimonials = [
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Built a real-time collaborative system using WebSockets and a modular monorepo architecture, improving maintainability and supporting concurrent sessions smoothly.",
+    name: "Freeflow",
+    title: "Next.js | Prisma | PostgreSQL",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Engineered secure authentication and transaction flows with improved consistency, reducing unauthorized access risk and ensuring reliable fund updates.",
+    name: "SwiftPay",
+    title: "React | Node.js | MongoDB",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Designed scalable APIs and unified multi-type content dashboards, improving retrieval speed and reducing fragmented information for end users.",
+    name: "MindStash",
+    title: "React | TypeScript | Express",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Led platform delivery for EDC with a seven-member team, supporting reliable operations and proactive issue resolution for technical infrastructure.",
+    name: "Technical Co-Head",
+    title: "EDC, D.Y. Patil COE",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Focused on practical engineering with strong foundations in TypeScript, Next.js, Node.js, databases, and deployment tooling.",
+    name: "Nishaad Dhabale",
+    title: "Full-Stack Developer",
   },
 ];
 
@@ -173,29 +173,29 @@ export const companies = [
 export const workExperience = [
   {
     id: 1,
-    title: "Frontend Engineer Intern",
-    desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+    title: "Technical Co-Head, Entrepreneur Development Cell",
+    desc: "Directed a 7-member engineering team and maintained EDC technical infrastructure with high operational reliability.",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
   },
   {
     id: 2,
-    title: "Mobile App Dev - JSM Tech",
-    desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
+    title: "SIH Lead",
+    desc: "Coordinated planning and execution for team participation in Smart India Hackathon activities.",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp2.svg",
   },
   {
     id: 3,
-    title: "Freelance App Dev Project",
-    desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
+    title: "Secretary of Departmental Magazine",
+    desc: "Managed technical and editorial coordination to streamline publishing workflow and collaboration.",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp3.svg",
   },
   {
     id: 4,
-    title: "Lead Frontend Developer",
-    desc: "Developed and maintained user-facing features using modern frontend technologies.",
+    title: "Avishkar Pitching Contest Lead",
+    desc: "Organized and supported technical operations and participant coordination for innovation pitching events.",
     className: "md:col-span-2",
     thumbnail: "/exp4.svg",
   },
@@ -205,13 +205,16 @@ export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
+    link: "https://github.com",
   },
   {
     id: 2,
     img: "/twit.svg",
+    link: "https://linkedin.com",
   },
   {
     id: 3,
     img: "/link.svg",
+    link: "mailto:nishaad.d.official@gmail.com",
   },
 ];
