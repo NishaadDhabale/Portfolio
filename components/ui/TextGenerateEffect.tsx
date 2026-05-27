@@ -27,15 +27,14 @@ export const TextGenerateEffect = ({
   }, [scope.current]);
 
   const renderWords = () => {
+    const highlightStartIndex = Math.max(wordsArray.length - 2, 0);
     return (
       <motion.div ref={scope}>
         {wordsArray.map((word, idx) => {
           return (
             <motion.span
               key={word + idx}
-              // change here if idx is greater than 3, change the text color to #CBACF9
-              className={` ${idx > 3 ? "text-purple" : "text-foreground"
-                } opacity-0`}
+              className={`${idx >= highlightStartIndex ? "text-[#B3B3B3]" : "text-foreground"} opacity-0`}
             >
               {word}{" "}
             </motion.span>

@@ -80,7 +80,7 @@ export function Globe({ globeConfig, data }: WorldProps) {
     showAtmosphere: true,
     atmosphereAltitude: 0.1,
     polygonColor: "rgba(255,255,255,0.7)",
-    globeColor: "#1d072e",
+    globeColor: "#D4D4D4",
     emissive: "#000000",
     emissiveIntensity: 0.1,
     shininess: 0.9,
@@ -236,7 +236,7 @@ export function WebGLRendererConfig() {
   useEffect(() => {
     gl.setPixelRatio(window.devicePixelRatio);
     gl.setSize(size.width, size.height);
-    gl.setClearColor(0xffaaff, 0);
+    gl.setClearColor(0xffffff, 0);
   }, []);
 
   return null;
