@@ -96,12 +96,52 @@ export const projects = [
   },
   {
     id: 4,
+    title: "Harry Potter - Cinematic Website",
+    des: "A high-performance, interactive web application built with Next.js and Motion (formerly Framer Motion). This project delivers a unique storytelling experience where visuals, typography, and audio react dynamically to the user's scroll position.",
+    img: "/p4.svg",
+    iconLists: ["/re.svg", "/tail.svg", "/node.svg", "/c.svg", "/fm.svg"],
+    link: "https://github.com/NishaadDhabale/Harry",
+  },
+  {
+    id: 5,
     title: "EDC Website - Official Club Portal",
+    des: "Recruitment and management portal with role-based access, token validation, and scalable workflows. Also Includes real life routing system for events and workshops.",
+    img: "/p4.svg",
+    iconLists: ["/re.svg", "/tail.svg", "/node.svg", "/c.svg", "/fm.svg"],
+    link: "https://github.com",
+  },
+  {   id: 6,
+    title: "Freelance- Grampanchayat Website",
+    des: "Informative and descriptive website for a local grampanchayat.",
+    img: "/p4.svg",
+    iconLists: ["/re.svg", "/tail.svg", "/node.svg", "/c.svg", "/fm.svg"],
+    link: "https://github.com",
+  },{
+          id: 7,
+    title: "Zorvyn - Accounting and Management System",
+    des: "Helps Manage and Track Accounting and Management of a Transactions and other related activities.",
+    img: "/p4.svg",
+    iconLists: ["/re.svg", "/tail.svg", "/node.svg", "/c.svg", "/fm.svg"],
+    link: "https://github.com",
+  },
+  {
+    id: 8,
+    title: "SIH Website - Blue-Carbon Blockchain",
     des: "Recruitment and management portal with role-based access, token validation, and scalable workflows.",
     img: "/p4.svg",
     iconLists: ["/re.svg", "/tail.svg", "/node.svg", "/c.svg", "/fm.svg"],
     link: "https://github.com",
   },
+  {
+          id: 9,
+    title: "Vector Shift - Assignment React flow,Zustand ",
+    des: "It features a React-based frontend for canvas interactions and a Python backend for graph evaluation, specifically determining if the constructed pipeline forms a Directed Acyclic Graph (DAG).",
+    img: "/p4.svg",
+    iconLists: ["/re.svg", "/tail.svg", "/node.svg", "/c.svg", "/fm.svg"],
+    link: "https://github.com",
+  }
+
+
 ];
 
 export const testimonials = [
